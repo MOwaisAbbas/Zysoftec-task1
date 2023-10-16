@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form_1,
+.table-div {
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px 0px #0000001F;
+    border: 1px solid #0000002E
+}
+
+input,
+select {
+    background-color: #f2f2f2 !important;
+    border: 1px solid #e3f7ea !important;
+    outline: 1px solid #e3f7ea !important;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input:active,
+input:focus,
+input:hover,
+select:active,
+select:focus,
+select:hover {
+    border: 1px solid #05C94D52 !important;
+    outline: 1px solid #05C94D52 !important;
+
+}
+
+
+
+.input-grp>input,
+.modal-body input[type='text'],
+select {
+    width: 100%;
+}
+
+.btn-gr {
+    background-color: #05C94D !important;
+    outline: none !important;
+    border: none !important;
+    color: #ffffff !important;
+}
+
+.btn-gr:hover,
+.btn-gr:active,
+.btn-gr:focus {
+    opacity: 0.9 !important;
+    background-color: #05C94D !important;
+    outline: none !important;
+    border: none !important;
+    color: #ffffff !important;
+}
+
+.btn-rd {
+    background-color: #e84945 !important;
+    outline: none !important;
+    border: none !important;
+    color: #ffffff !important;
+}
+
+.btn-rd:hover,
+.btn-rd:active,
+.btn-rd:focus {
+    opacity: 0.9 !important;
+    background-color: #e84945 !important;
+    outline: none !important;
+    border: none !important;
+    color: #ffffff !important;
+}
+
+.input-grp>button {
+    top: 5px;
+    right: 25px;
+}
+
+table {
+    font-size: 12px;
+}
+
+.form_1>h2 {
+    font-size: 18px;
+}
+
+#list-icon {
+    top: 7px;
+    left: 16px;
+}
+
+input[type=radio] {
+    transform: scale(1.5, 1.5);
+    border: none !important;
+    outline: none !important;
+    accent-color: green !important;
+}
+
+
+@media (max-width: 576px) {
+    .table-div {
+        display: none;
+    }
+
+
+
+
+    .modal-footer button {
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width:992px) {
+    .table-div {
+        margin-top: 3rem;
+    }
+
+
+}
